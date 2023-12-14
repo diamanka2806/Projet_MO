@@ -338,4 +338,60 @@ public class Borne {
       }
    }
 
+   public int getIdBorne() {
+      return idBorne;
+   }
+
+   public void setIdBorne(int idBorne) {
+      this.idBorne = idBorne;
+   }
+
+   public FeuSignalisation getFeuSignalisation() {
+      return feuSignalisation;
+   }
+
+   public void setFeuSignalisation(FeuSignalisation feuSignalisation) {
+      this.feuSignalisation = feuSignalisation;
+   }
+
+   public SystemePaiement getSystemePaiement() {
+      return systemePaiement;
+   }
+
+   public void setSystemePaiement(SystemePaiement systemePaiement) {
+      this.systemePaiement = systemePaiement;
+   }
+
+   public Bandeau getBandeau() {
+      return bandeau;
+   }
+
+   public void setBandeau(Bandeau bandeau) {
+      this.bandeau = bandeau;
+   }
+
+   public Panneau getPanneau() {
+      return panneau;
+   }
+
+   public void setPanneau(Panneau panneau) {
+      this.panneau = panneau;
+   }
+
+   public TypeBorne getTypeBorne() {
+      return typeBorne;
+   }
+
+   public void setTypeBorne(TypeBorne typeBorne) {
+      this.typeBorne = typeBorne;
+   }
+
+   public Guichet getGuichet() {
+      return guichet;
+   }
+
+   public void setGuichet(Guichet guichet) {
+      this.guichet = guichet;
+   }
+
 }

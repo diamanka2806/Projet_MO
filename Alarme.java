@@ -4,7 +4,6 @@
  * Purpose: Defines the Class Alarme
  ***********************************************************************/
 
-import java.util.*;
 
 public class Alarme {
   
@@ -13,20 +12,14 @@ public class Alarme {
    public TypeAlarme typeAlarme;
    public Borne borne;
    
-   /** @pdOid c2ed9f0d-9a6b-43ba-ba1d-3fca11b469d1 */
    public String toString() {
-      // TODO: implement
       return null;
    }
    
-   
-   /** @pdGenerated default parent getter */
    public Borne getBorne() {
       return borne;
    }
    
-   /** @pdGenerated default parent setter
-     * @param newBorne */
    public void setBorne(Borne newBorne) {
       if (this.borne == null || !this.borne.equals(newBorne))
       {
@@ -42,6 +35,30 @@ public class Alarme {
             this.borne.addAlarme(this);
          }
       }
+   }
+
+   public int getIdAlarme() {
+      return idAlarme;
+   }
+
+   public void setIdAlarme(int idAlarme) {
+      this.idAlarme = idAlarme;
+   }
+
+   public java.util.Date getDateAlarme() {
+      return dateAlarme;
+   }
+
+   public void setDateAlarme(java.util.Date dateAlarme) {
+      this.dateAlarme = dateAlarme;
+   }
+
+   public TypeAlarme getTypeAlarme() {
+      return typeAlarme;
+   }
+
+   public void setTypeAlarme(TypeAlarme typeAlarme) {
+      this.typeAlarme = typeAlarme;
    }
 
 }
